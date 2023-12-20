@@ -1,0 +1,76 @@
+@import '../../../Components/Vars/Vars';
+
+#Weather {
+    padding-top: 4rem;
+    background-image: url('../../../Assets/Images/Hawaii_1.webp');
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    width: 100vw;
+    color: $offWhite;
+    text-shadow: 0 0 3px $gold;
+    text-align: center;
+    
+    h1 {
+        font-family: $brandfont;
+        font-size: 3rem;
+    }
+
+    .weather {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        justify-content: center;
+
+        .temp, .description, .humidity, .wind {
+            display: grid;
+            justify-content: center;
+            width: 25%;
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+
+        .temp {
+            span {
+                font-weight: 600;
+                font-size: 3rem;
+            }
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 50%;
+                height: 30%;
+                padding: 0;
+                margin: 0;
+            }
+
+            p {
+                font-size: 2rem;
+                margin: 0;
+            }
+        }
+
+        .humidity {
+            span {
+                font-size: 2rem;
+            }
+        }
+
+        .wind {
+            span {
+                font-size: 2rem;
+            }
+        }
+    }
+}

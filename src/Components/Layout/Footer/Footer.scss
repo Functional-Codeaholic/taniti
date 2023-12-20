@@ -1,0 +1,18 @@
+@import '../../Vars/Vars';
+
+footer {
+    width: 100%;
+    background-color: $dkBlue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}

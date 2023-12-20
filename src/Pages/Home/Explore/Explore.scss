@@ -1,0 +1,38 @@
+@import '../../../Components/Vars/Vars';
+
+#Explore {
+    position: relative;
+
+    img {
+        max-height: 85vh;
+        width: 100vw;
+        object-fit: cover;
+        object-position: 50% 0;
+    }
+
+    &::before {
+        content: 'Explore';
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: $brandfont;
+        color: $gold;
+        text-shadow: 0 0 3px $offWhite;
+        position: absolute;
+        top: 10%;
+        right: 5vw;
+    }
+
+    &::after {
+        content: 'Climb to the top of our beautiful Kalakatoa Volcano\A Hike deep into our lush rainforests\A Go Snorkeling in our crystal-clear oceans...\A Whatever your adventure holds, you can find it on Taniti';
+        white-space: pre-wrap;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: $mainfont;
+        color: $offWhite;
+        text-shadow: 0 0 3px $gold;
+        position: absolute;
+        top: 25%;
+        right: 5vw;
+        text-align: right;
+    }
+}

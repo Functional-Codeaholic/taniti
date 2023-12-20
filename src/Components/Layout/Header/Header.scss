@@ -1,0 +1,47 @@
+@import '../../Vars/Vars';
+
+header {
+    max-height: 15%;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: $offWhite;
+
+    nav, .news, .logo, .blog, .cta {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news a, .blog a, .cta a {
+        border-radius: 2rem;
+        padding: 1rem;
+        background-color: $gold66;
+        box-shadow: 
+            inset 1rem 2rem 1rem -1rem $ltBlue, 
+            inset -1rem -2rem 1rem -1rem $dkBlue, 
+            0 0 0.5rem 0 $dkBlue;
+            border: none;
+        text-decoration: none;
+        color: $offWhite;
+        font-size: 1rem;
+
+        &:active {
+            background-color: $dkBlue;
+            box-shadow: 
+                inset 1rem 2rem 1rem -1rem $gold66, 
+                inset -1rem -2rem 1rem -1rem $ltBlue, 
+                0 0 0.5rem 0 $ltBlue;
+                border: none;
+            color: $offWhite;
+        }
+    }
+}

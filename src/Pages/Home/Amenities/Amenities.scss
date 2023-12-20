@@ -1,0 +1,32 @@
+@import '../../../Components/Vars/Vars';
+
+#Amenities {
+    position: relative;
+    max-height: 85vh;
+
+    &::before {
+        content: 'Amenities';
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: $brandfont;
+        color: $offWhite;
+        text-shadow: 0 0 3px $dkBlue;
+        position: absolute;
+        top: 10%;
+        right: 5vw;
+    }
+
+    &::after {
+        content: 'From inexpensive Hostels, to the most luxurious 5-star resorts - Wherever you want to stay, Taniti has you covered!';
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: $mainfont;
+        color: $offWhite;
+        text-shadow: 0 0 3px $gold;
+        position: absolute;
+        top: 25%;
+        right: 5vw;
+        width: 40ch;
+        text-align: right;
+    }
+}

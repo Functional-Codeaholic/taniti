@@ -1,0 +1,51 @@
+@import '../../../Vars/Vars';
+
+nav {
+    .hamburger {
+        height: 75%;
+
+        svg {
+            fill: $gold;
+            height: 100%;
+            position: relative;
+        }
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        margin: 0 20px;
+        padding: 0;
+        background-color: $beige;
+        width: 20vw;
+        position: absolute;
+        top: 15vh;
+        left: 10%;
+        transform: translateX(-10%);
+
+        li {
+            list-style-type: none;
+            padding-right: 10px;
+            text-align: center;
+            border-bottom: 1px solid $gold;
+            box-shadow: inset 0 0 10px 2px $gold;
+
+            &:hover {
+                background-color: $gold66;
+
+                a {
+                    color: $ltBlue;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 3rem;
+                padding: 0 40%;
+                margin: 0 -40%;
+                color: $dkBlue;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import '../../../Components/Vars/Vars';
+
+#Food {
+    position: relative;
+
+    img {
+        max-height: 85vh;
+        width: 100vw;
+        object-fit: cover;
+        object-position: 50% 30%;
+    }
+
+    &::before {
+        content: 'Food';
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: $brandfont;
+        color: $offWhite;
+        text-shadow: 0 0 3px $dkBlue;
+        position: absolute;
+        top: 45%;
+        right: 5vw;
+    }
+
+    &::after {
+        content: 'Simple, rich, flavorful - comfort food at it\'s finest. Nobody does it like Tanitians. \A Let us cook for you.';
+        white-space: pre-wrap;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: $mainfont;
+        color: $offWhite;
+        text-shadow: 0 0 5px $dkBlue;
+        position: absolute;
+        top: 60%;
+        right: 5vw;
+        text-align: right;
+        width: 40ch;
+    }
+}
