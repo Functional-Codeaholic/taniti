@@ -8,6 +8,9 @@
 
         video {
             position: relative;
+            min-height: 50vh;
+            object-fit: cover;
+            object-position: 50% 0;
         }
     
         &::before {
