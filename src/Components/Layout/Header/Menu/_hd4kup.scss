@@ -1,0 +1,29 @@
+@import '../../../Vars/Vars';
+
+@media screen and (width >= $hd4kMin) {
+
+    nav {
+        .hamburger {
+    
+            svg {
+            }
+        }
+    
+        ul {
+            width: 20vw;
+            left: 10%;
+    
+            li {
+    
+                &:hover {
+    
+                    a {
+                    }
+                }
+    
+                a {
+                }
+            }
+        }
+    }
+}

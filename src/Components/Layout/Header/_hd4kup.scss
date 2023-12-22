@@ -1,0 +1,19 @@
+@import '../../Vars/Vars';
+
+@media screen and (width >= $hd4kMin) {
+
+    header {
+        height: 15vh;
+    
+        nav, .news, .logo, .blog, .cta {
+            width: 20%;
+            height: 100%;
+        }
+    
+        .news a, .blog a, .cta a {
+    
+            &:active {
+            }
+        }
+    }
+}

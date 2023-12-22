@@ -1,0 +1,23 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and ($standardMin <= width < $hd1080Min) {
+
+    #Beaches {
+        position: relative;
+    
+        a {
+            img {
+                object-position: 50% 0;
+            }
+        
+            &::before {
+                top: 5%;
+            }
+        
+            &::after {
+                top: 55%;
+                text-shadow: 0 0 3px $offWhite;
+            }
+        }
+    }
+}

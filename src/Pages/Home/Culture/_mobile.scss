@@ -1,0 +1,23 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and (width < $tabletMin) {
+
+    #Culture {
+    
+        a {
+            
+            img {
+            }
+    
+            &::before {
+                text-shadow:
+                    0 0 3px $offWhite,
+                    1px 1px 3px black;
+            }
+    
+            &::after {
+                visibility: collapse;
+            }
+        }
+    }
+}

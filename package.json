@@ -1,8 +1,8 @@
 {
   "name": "taniti",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
-  "homepage": "https://functional-codeaholic.github.io/taniti/",
+  "homepage": "https://functional-codeaholic.github.io/taniti",
   "dependencies": {
     "@babel/plugin-transform-react-jsx-source": "^7.23.3",
     "@testing-library/jest-dom": "^5.17.0",

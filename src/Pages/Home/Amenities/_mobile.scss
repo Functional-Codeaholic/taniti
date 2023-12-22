@@ -1,0 +1,27 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and (width < $tabletMin) {
+
+    #Amenities {
+    
+        a {
+            img {
+                height: 30vh;
+                width: 100vw;
+                object-fit: cover;
+                object-position: 75% 0;
+            }
+    
+            &::before {
+                top: 10%;
+                text-shadow: 
+                    0 0 5px $dkBlue,
+                    0 0 2px black;
+            }
+        
+            &::after {
+                visibility: collapse;
+            }
+        }
+    }
+}

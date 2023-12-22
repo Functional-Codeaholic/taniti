@@ -1,0 +1,15 @@
+@import '../../../Vars/Vars';
+
+@media screen and ($tabletMin <= width < $standardMin) {
+
+    .appLinks {
+        width: 33%;
+        position: absolute;
+        right: 1vw;
+        bottom: 5vh;
+    
+        img {
+            width: 100%;
+        }
+    }
+}

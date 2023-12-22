@@ -20,6 +20,7 @@ import n13 from '../../../Assets/Images/Weather_Icons/13n.png';
 import d50 from '../../../Assets/Images/Weather_Icons/50d.png';
 import n50 from '../../../Assets/Images/Weather_Icons/50n.png';
 
+
 const Weather = () => {    
     const [data, setData] = useState({});
     const [icon, setIcon] = useState('');

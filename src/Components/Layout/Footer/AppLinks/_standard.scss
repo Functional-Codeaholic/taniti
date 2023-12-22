@@ -1,0 +1,12 @@
+@import '../../../Vars/Vars';
+
+@media screen and ($standardMin <= width < $hd1080Min) {
+
+    .appLinks {
+        width: 25%;
+    
+        img {
+            width: 100%;
+        }
+    }
+}

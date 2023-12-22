@@ -1,0 +1,23 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and (width < $tabletMin) {
+
+    #Hero {
+
+        video {
+            height: 50vh;
+            position: relative;
+            left: -60%;
+        }
+    
+        &::before {
+            top: 25%;
+            font-size: 3rem;
+        }
+    
+        &::after {
+            font-size:  1.8rem;
+            text-align: center;
+        }
+    }
+}

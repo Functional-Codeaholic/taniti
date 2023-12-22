@@ -1,0 +1,13 @@
+@import '../../../Vars/Vars';
+
+@media screen and ($hd1080Min <= width < $hd4kMin) {
+
+    .sitemap {
+        width: 25vw;
+    
+        ul {
+            li {
+            }
+        }
+    } 
+}

@@ -1,0 +1,57 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and ($hd1080Min <= width < $hd4kMin) {
+
+    #Weather {
+        background-position: center center;
+        
+        h1 {
+            padding-top: 4rem;
+            font-size: 3rem;
+        }
+
+        .weather {
+    
+            .temp, .description, .humidity, .wind {
+                width: 25%;
+    
+                h2 {
+                    font-size: 2rem;
+                }
+
+                h3 {
+
+                }
+            }
+    
+            .temp {
+                span {
+                    font-size: 3rem;
+                }
+            }
+    
+            .description {
+    
+                img {
+                    width: 50%;
+                    height: 30%;
+                }
+    
+                p {
+                }
+            }
+    
+            .humidity {
+                span {
+                    font-size: 2rem;
+                }
+            }
+    
+            .wind {
+                span {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

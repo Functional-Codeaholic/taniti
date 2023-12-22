@@ -6,7 +6,8 @@ const Beaches = () => {
     return (
         <>
             <div className="featured" id="Beaches">
-                <img src={beach} alt="" />
+                <a href="/TanitianBeaches"><img src={beach} alt="" /></a>
+                
             </div>
         </>
     );

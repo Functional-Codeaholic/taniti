@@ -1,7 +1,11 @@
 @import '../../../Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
 
 .sitemap {
-    width: 25vw;
 
     ul {
         li {

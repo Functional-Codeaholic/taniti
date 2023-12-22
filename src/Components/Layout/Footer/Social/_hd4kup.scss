@@ -1,0 +1,15 @@
+@import '../../../Vars/Vars';
+
+@media screen and (width >= $hd4kMin) {
+
+    .social {
+        width: 25%;
+    
+        a {
+    
+            img {
+                width: 40%;
+            }
+        }
+    }
+}

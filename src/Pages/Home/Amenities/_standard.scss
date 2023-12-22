@@ -1,0 +1,28 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and ($standardMin <= width < $hd1080Min) {
+
+    #Amenities {
+    
+        a {
+            img {
+                height: 70vh;
+                width: 100vw;
+                object-fit: cover;
+                object-position: 75% 0;
+            }
+    
+            &::before {
+                top: 0;
+                text-shadow: 0 0 3px $dkBlue;
+            }
+        
+            &::after {
+                text-shadow: 
+                    0 0 3px $gold,
+                    0 0 2px black;
+                top: 65%;
+            }
+        }
+    }
+}

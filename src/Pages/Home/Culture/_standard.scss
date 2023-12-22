@@ -1,0 +1,24 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and ($standardMin <= width < $hd1080Min) {
+
+    #Culture {
+    
+        a {
+            
+            img {
+            }
+    
+            &::before {
+                text-shadow: 0 0 3px $offWhite;
+            }
+    
+            &::after {
+                top: 60%;
+                text-shadow: 
+                    0 0 3px $dkBlue,
+                    0 0 2px black;
+            }
+        }
+    }
+}

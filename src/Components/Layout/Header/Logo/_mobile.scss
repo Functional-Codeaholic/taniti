@@ -1,0 +1,16 @@
+@import '../../../Vars/Vars';
+
+@media screen and (width < $tabletMin) {
+
+    .logo {
+        position: absolute;
+        left: 1vw;
+        bottom: 6vh;
+    
+        a {
+    
+            img {
+            }
+        }
+    }
+}

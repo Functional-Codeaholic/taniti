@@ -1,0 +1,14 @@
+@import '../../../Vars/Vars';
+
+@media screen and (width < $tabletMin) {
+
+    .sitemap {
+        width: 100vw;
+        margin-bottom: 20vh;
+    
+        ul {
+            li {
+            }
+        }
+    } 
+}

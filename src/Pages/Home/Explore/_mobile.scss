@@ -1,0 +1,21 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and (width < $tabletMin) {
+
+    #Explore {
+
+        a {
+    
+            img {
+            }
+        
+            &::before {
+            }
+        
+            &::after {
+                visibility: collapse;
+            }
+
+        }
+    }
+}

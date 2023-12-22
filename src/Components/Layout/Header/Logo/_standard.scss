@@ -1,0 +1,13 @@
+@import '../../../Vars/Vars';
+
+@media screen and ($standardMin <= width < $hd1080Min) {
+
+    .logo {
+    
+        a {
+    
+            img {
+            }
+        }
+    }
+}

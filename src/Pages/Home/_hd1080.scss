@@ -1,0 +1,18 @@
+@import '../../Components/Vars/Vars';
+
+@media screen and ($hd1080Min <= width < $hd4kMin) {
+
+    #Explore, #Culture, #Food, #Beaches, #Amenities {
+    
+        a {
+
+            &::before {
+                font-size: 5rem;
+            }
+
+            &::after {
+                
+            }
+        }
+    }
+}

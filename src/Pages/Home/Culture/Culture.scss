@@ -1,39 +1,36 @@
 @import '../../../Components/Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
 
 #Culture {
     position: relative;
 
-    img {
-        max-height: 85vh;
-        width: 100vw;
-        object-fit: cover;
-        object-position: 50% 0;
-    }
+    a {
+        
+        img {
+            max-height: 85vh;
+            width: 100vw;
+            object-fit: cover;
+            object-position: 50% 0;
+        }
 
-    &::before {
-        content: 'Culture';
-        font-size: 3rem;
-        font-weight: 600;
-        font-family: $brandfont;
-        color: $dkBlue;
-        text-shadow: 0 0 3px $offWhite;
-        position: absolute;
-        top: 25%;
-        left: 5vw;
-    }
+        &::before {
+            content: 'Culture';
+            color: $dkBlue;
+            top: 25%;
+            left: 5vw;
+        }
 
-    &::after {
-        content: 'Ain\'t no party like a Taniti Party! Come experience beautiful dances, mouth-watering local cuisine, and hospitality others can only dream of.';
-        white-space: pre-wrap;
-        font-size: 1.5rem;
-        font-weight: 600;
-        font-family: $mainfont;
-        color: $offWhite;
-        text-shadow: 0 0 3px $dkBlue;
-        position: absolute;
-        top: 40%;
-        left: 5vw;
-        text-align: left;
-        width: 40ch;
+        &::after {
+            content: 'Ain\'t no party like a Taniti Party! Come experience beautiful dances, mouth-watering local cuisine, and hospitality others can only dream of.';
+            white-space: pre-wrap;
+            color: $offWhite;
+            left: 5vw;
+            text-align: left;
+            width: 40ch;
+        }
     }
 }

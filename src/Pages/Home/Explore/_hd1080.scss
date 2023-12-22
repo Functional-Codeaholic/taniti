@@ -1,0 +1,22 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and ($hd1080Min <= width < $hd4kMin) {
+
+    #Explore {
+
+        a {
+    
+            img {
+            }
+        
+            &::before {
+            }
+        
+            &::after {
+                top: 45%;
+                text-shadow: 0 0 3px $gold;
+            }
+
+        }
+    }
+}

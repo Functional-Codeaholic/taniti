@@ -1,0 +1,21 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and ($hd1080Min <= width < $hd4kMin) {
+
+    #Food {
+        
+        a {
+            img {
+            }
+        
+            &::before {
+                content: 'Food';
+                top: 45%;
+                text-shadow: 0 0 3px $dkBlue;
+            }
+        
+            &::after {
+            }
+        }
+    }
+}

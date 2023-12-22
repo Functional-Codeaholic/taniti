@@ -1,0 +1,19 @@
+@import '../../Components/Vars/Vars';
+
+@media screen and ($tabletMin <= width < $standardMin) {
+
+    #Explore, #Culture, #Food, #Beaches, #Amenities {
+        max-height: 50vh;
+    
+        a {
+
+            &::before {
+                font-size: 4rem;
+            }
+
+            &::after {
+                
+            }
+        }
+    }
+}

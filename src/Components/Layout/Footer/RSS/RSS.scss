@@ -1,7 +1,11 @@
 @import '../../../Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
 
 .rss {
-    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +16,6 @@
         align-items: center;
 
         img {
-            width: 25%;
         }
     }
 }

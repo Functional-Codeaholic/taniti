@@ -1,0 +1,22 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and (width < $tabletMin) {
+
+    #Beaches {
+        position: relative;
+    
+        a {
+            img {
+                object-position: 0 0;
+            }
+        
+            &::before {
+                top: 35%;
+            }
+        
+            &::after {
+                visibility: collapse;
+            }
+        }
+    }
+}

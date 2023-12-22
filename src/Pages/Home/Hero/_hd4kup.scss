@@ -1,0 +1,17 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and (width >= $hd4kMin) {
+
+    #Hero {
+        position: relative;
+    
+        &::before {
+            top: 45%;
+            font-size: 5rem;
+        }
+    
+        &::after {
+            font-size:  3rem;
+        }
+    }
+}

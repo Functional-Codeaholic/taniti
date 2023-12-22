@@ -1,4 +1,9 @@
 @import '../../Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
 
 footer {
     width: 100%;
@@ -12,7 +17,6 @@ footer {
     .footer {
         width: 100%;
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        position: relative;
     }
 }

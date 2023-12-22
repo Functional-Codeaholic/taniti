@@ -1,0 +1,19 @@
+@import '../../../Vars/Vars';
+
+@media screen and ($tabletMin <= width < $standardMin) {
+
+    .rss {
+        width: 33%;
+        position: absolute;
+        left: 50%;
+        bottom: 7vh;
+        transform: translateX(-50%);
+    
+        a {
+    
+            img {
+                width: 55%;
+            }
+        }
+    }
+}

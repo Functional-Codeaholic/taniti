@@ -1,0 +1,34 @@
+@import '../../Components/Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
+
+#Explore, #Culture, #Food, #Beaches, #Amenities {
+    min-height: 30vh;
+    border-top: 3px solid $offWhite;
+//    border-bottom: 3px solid $offWhite;
+
+    a {
+
+        img {
+            min-height: 30vh;
+        }
+
+        &::before {
+            font-family: $brandfont;
+            position: absolute;
+            font-weight: 600;
+            z-index: 900;
+        }
+    
+        &::after {
+            position: absolute;
+            font-weight: 600;
+            z-index: 900;
+            font-size: 1.5rem;
+            font-family: $mainfont;
+        }
+    }
+}

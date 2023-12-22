@@ -6,7 +6,8 @@ const Culture = () => {
     return (
         <>
             <div className="featured" id="Culture">
-                <img src={Dance} alt="" />
+                <a href="/TanitianCulture"><img src={Dance} alt="" /></a>
+                
             </div>
         </>
     );

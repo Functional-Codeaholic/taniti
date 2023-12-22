@@ -1,31 +1,40 @@
 @import '../../../Components/Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
 
-.hero {
+#Hero {
     position: relative;
+    max-width: 100vw;
+
+    video {
+        width: 100vw;
+    }
 
     &::before {
-        content: 'Discover Breathtaking';
-        font-family: Tropical;
-        font-size:  3rem;
-        color: $ltBlue;
+        content: 'Taniti';
+        font-family: $brandfont;
         position: absolute;
-        top: 55%;
-        left: 50%;
-        transform: translate(-50%, -55%);
+        font-weight: 600;
         z-index: 900;
-        text-shadow: 0 0 2px $dkBlue;
+        color: $gold;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        text-shadow: 0 0 4px $ltBlue;
     }
 
     &::after {
-        content: 'Taniti';
-        font-family: Tropical;
-        font-size:  5rem;
-        color: $gold;
+        content: 'Discover Breathtaking';
         position: absolute;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%, -45%);
+        font-weight: 600;
         z-index: 900;
-        text-shadow: 0 0 4px $ltBlue;
+        font-family: $brandfont;
+        color: $ltBlue;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -55%);
+        text-shadow: 0 0 2px $dkBlue;
     }
 }

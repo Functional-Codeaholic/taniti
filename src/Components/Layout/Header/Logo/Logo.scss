@@ -1,12 +1,17 @@
 @import '../../../Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
 
 .logo {
 
     a {
-        height: 75%;
+        max-height: 11.25vh;
 
         img {
-            height: 100%;
+            max-height: 11.25vh;
         }
     }
 }

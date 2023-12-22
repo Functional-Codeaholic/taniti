@@ -1,0 +1,15 @@
+@import '../../../Vars/Vars';
+
+@media screen and ($standardMin <= width < $hd1080Min) {
+
+    .social {
+        width: 25%;
+    
+        a {
+    
+            img {
+                width: 70%;
+            }
+        }
+    }
+}

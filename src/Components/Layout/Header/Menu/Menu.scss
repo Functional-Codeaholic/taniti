@@ -1,8 +1,13 @@
 @import '../../../Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
 
 nav {
     .hamburger {
-        height: 75%;
+        height: 11.25vh;
 
         svg {
             fill: $gold;
@@ -18,11 +23,10 @@ nav {
         margin: 0 20px;
         padding: 0;
         background-color: $beige;
-        width: 20vw;
         position: absolute;
         top: 15vh;
-        left: 10%;
         transform: translateX(-10%);
+        z-index: 2000;
 
         li {
             list-style-type: none;

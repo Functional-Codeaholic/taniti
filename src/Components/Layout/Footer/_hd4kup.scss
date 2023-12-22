@@ -1,0 +1,12 @@
+@import '../../Vars/Vars';
+
+@media screen and (width >= $hd4kMin) {
+
+    footer {
+    
+        .footer {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+    }
+}

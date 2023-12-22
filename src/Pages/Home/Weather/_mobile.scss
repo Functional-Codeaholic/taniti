@@ -1,0 +1,60 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and (width < $tabletMin) {
+
+    #Weather {
+        background-position: 65% 75%;
+        opacity: 0.7;
+        
+        h1 {
+            padding-top: 2rem;
+            font-size: 2rem;
+        }
+
+        .weather {
+    
+            .temp, .description, .humidity, .wind {
+                width: 50%;
+    
+                h2 {
+                    font-size: 1.3rem;
+                    margin: 0;
+                }
+
+                h3 {
+                    margin: 0;
+                }
+            }
+    
+            .temp {
+                padding-bottom: 7.5vh;
+
+                span {
+                    font-size: 1.8rem;
+                }
+            }
+    
+            .description {
+    
+                img {
+                    width: 35vw;
+                }
+    
+                p {
+                }
+            }
+    
+            .humidity {
+                span {
+                    font-size: 1.8rem;
+                }
+            }
+    
+            .wind {
+                span {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}

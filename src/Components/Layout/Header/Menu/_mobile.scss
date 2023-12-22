@@ -1,0 +1,32 @@
+@import '../../../Vars/Vars';
+
+@media screen and (width < $tabletMin) {
+
+    nav {
+        .hamburger {
+            position: absolute;
+            right: 5vw;
+            top: 1vh;
+    
+            svg {
+            }
+        }
+    
+        ul {
+            width: 90vw;
+            left: 10vw;
+    
+            li {
+    
+                &:hover {
+    
+                    a {
+                    }
+                }
+    
+                a {
+                }
+            }
+        }
+    }
+}

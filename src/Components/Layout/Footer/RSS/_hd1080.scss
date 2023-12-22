@@ -1,0 +1,15 @@
+@import '../../../Vars/Vars';
+
+@media screen and ($hd1080Min <= width < $hd4kMin) {
+
+    .rss {
+        width: 25%;
+    
+        a {
+    
+            img {
+                width: 25%;
+            }
+        }
+    }
+}

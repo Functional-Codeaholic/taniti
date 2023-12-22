@@ -1,38 +1,33 @@
 @import '../../../Components/Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
 
 #Beaches {
     position: relative;
 
-    img {
-        max-height: 85vh;
-        width: 100vw;
-        object-fit: cover;
-        object-position: 50% 0;
-    }
-
-    &::before {
-        content: 'Beaches';
-        font-size: 3rem;
-        font-weight: 600;
-        font-family: $brandfont;
-        color: $gold;
-        text-shadow: 0 0 3px $offWhite;
-        position: absolute;
-        top: 25%;
-        left: 5vw;
-    }
-
-    &::after {
-        content: '✓ Captivating white sand beaches \A ✓ Unbelievable lava-rock beaches \A ✓ Surf that dreams are made of \A ✓ Clear blue water as far as the eye can see \A Whatever you like, if it\'s a beach, we\'ve got it!';
-        white-space: pre-wrap;
-        font-size: 1.5rem;
-        font-weight: 600;
-        font-family: $mainfont;
-        color: $gold;
-        text-shadow: 0 0 3px $offWhite;
-        position: absolute;
-        top: 55%;
-        left: 5vw;
-        text-align: left;
+    a {
+        img {
+            max-height: 85vh;
+            width: 100vw;
+            object-fit: cover;
+        }
+    
+        &::before {
+            content: 'Beaches';
+            color: $gold;
+            text-shadow: 0 0 3px $offWhite;
+            left: 5vw;
+        }
+    
+        &::after {
+            content: '✓ Captivating white sand beaches \A ✓ Unbelievable lava-rock beaches \A ✓ Surf that dreams are made of \A ✓ Clear blue water as far as the eye can see \A Whatever you like, if it\'s a beach, we\'ve got it!';
+            white-space: pre-wrap;
+            color: $gold;
+            left: 5vw;
+            text-align: left;
+        }
     }
 }

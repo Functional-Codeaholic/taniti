@@ -1,0 +1,21 @@
+@import '../../../Components/Vars/Vars';
+
+@media screen and ($tabletMin <= width < $standardMin) {
+
+    #Food {
+        
+        a {
+            img {
+            }
+        
+            &::before {
+                content: 'Food';
+                top: 35%;
+                text-shadow: 0 0 3px $dkBlue;
+            }
+        
+            &::after {
+            }
+        }
+    }
+}

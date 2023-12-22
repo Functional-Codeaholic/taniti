@@ -6,7 +6,8 @@ const Food = () => {
     return (
         <>
             <div className="featured" id="Food">
-                <img src={FoodImg} alt="" />
+                <a href="/TanitianFood"><img src={FoodImg} alt="" /></a>
+                
             </div>
         </>
     );

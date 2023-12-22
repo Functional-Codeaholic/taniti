@@ -1,8 +1,11 @@
 @import '../../Vars/Vars';
+@import './mobile';
+@import './tablet';
+@import './standard';
+@import './hd1080';
+@import './hd4kup';
 
 header {
-    max-height: 15%;
-    height: 15vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -14,8 +17,6 @@ header {
     background-color: $offWhite;
 
     nav, .news, .logo, .blog, .cta {
-        width: 20%;
-        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
