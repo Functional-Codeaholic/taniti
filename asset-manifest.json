@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/taniti/static/css/main.be147903.css",
-    "main.js": "/taniti/static/js/main.d7555d71.js",
+    "main.js": "/taniti/static/js/main.de7af89a.js",
     "static/js/787.993642f4.chunk.js": "/taniti/static/js/787.993642f4.chunk.js",
     "static/media/Samoa_0.ogv": "/taniti/static/media/Samoa_0.817ba7e15aaafc237190.ogv",
     "static/media/Samoa_0.mp4": "/taniti/static/media/Samoa_0.a0f93415535a5e11fb36.mp4",
@@ -39,11 +39,11 @@
     "static/media/google.webp": "/taniti/static/media/google.2fced08435b890d946db.webp",
     "index.html": "/taniti/index.html",
     "main.be147903.css.map": "/taniti/static/css/main.be147903.css.map",
-    "main.d7555d71.js.map": "/taniti/static/js/main.d7555d71.js.map",
+    "main.de7af89a.js.map": "/taniti/static/js/main.de7af89a.js.map",
     "787.993642f4.chunk.js.map": "/taniti/static/js/787.993642f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be147903.css",
-    "static/js/main.d7555d71.js"
+    "static/js/main.de7af89a.js"
   ]
 }
