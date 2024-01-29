@@ -5,7 +5,7 @@ const News = () => {
     return (
         <>
             <div className="news">
-                <a href='/Upcoming'>Upcoming Events</a>
+                <a href='taniti/Upcoming'>Upcoming Events</a>
             </div>    
         </>
     );
