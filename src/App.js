@@ -18,6 +18,7 @@ import ExploreTaniti from './Pages/ExploreTaniti/ExploreTaniti';
 import TanitianCulture from './Pages/TanitianCulture/TanitianCulture';
 import TanitianFood from './Pages/TanitianFood/TanitianFood';
 import TanitianBeaches from './Pages/TanitianBeaches/TanitianBeaches';
+import TanitianAmenities from './Pages/TanitianAmenities/TanitianAmenities';
 
 function App() {
   return (
@@ -26,23 +27,32 @@ function App() {
         <Route exact path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="#Hero" element={<Hero />} />
+
           <Route path="#Amenities" element={<Amenities />} />
+          <Route path="/taniti/Amenities" element={<TanitianAmenities />} >
+            <Route path="/taniti/Amenities/*" element={<TanitianAmenities />} />
+          </Route>
+
           <Route path="#Beaches" element={<Beaches />} />
           <Route path="/TanitianBeaches" element={<TanitianBeaches />} >
             <Route path="/TanitianBeaches/*" element={<TanitianBeaches />} />
           </Route>
+
           <Route path="#Culture" element={<Culture />} />
           <Route path="/TanitianCulture" element={<TanitianCulture />} >
             <Route path="/TanitianCulture/*" element={<TanitianCulture />} />
           </Route>
+
           <Route path="#Explore" element={<Explore />} />
           <Route path="/ExploreTaniti" element={<ExploreTaniti />} >
             <Route path="/ExploreTaniti/*" element={<ExploreTaniti />} />
           </Route>
+
           <Route path="#Food" element={<Food />} />
           <Route path="/TanitianFood" element={<TanitianFood />} >
             <Route path="/TanitianFood/*" element={<TanitianFood />} />
           </Route>
+
           <Route path="#Weather" element={<Weather />} />
           
           <Route path="/TravelBlog" element={<TravelBlog />} >

@@ -6,7 +6,7 @@ const Amenities = () => {
     return (
         <>
             <div className="featured" id="Amenities">
-                <a href="/TahitianAmenities"><img src={Huts} alt="" /></a>
+                <a href="/taniti/TahitianAmenities"><img src={Huts} alt="" /></a>
             </div>
         </>
     );

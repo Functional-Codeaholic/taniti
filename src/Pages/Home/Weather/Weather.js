@@ -85,8 +85,9 @@ const Weather = () => {
                 case '50n':
                     setIcon(n50);
                     break;
+                default:
+                    setIcon(d01);
             }
-            console.log(response.data);
         });
     }, [])
 
