@@ -6,7 +6,7 @@ const Explore = () => {
     return (
         <>
             <div className="featured" id="Explore">
-                <a href="/taniti/ExploreTaniti"><img src={Volcano} alt="" /></a>
+                <a href="/ExploreTaniti"><img src={Volcano} alt="" /></a>
             </div>
         </>
     );

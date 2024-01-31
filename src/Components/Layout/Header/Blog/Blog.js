@@ -5,7 +5,7 @@ const Blog = () => {
     return (
         <>
             <div className="blog">
-                <a href='/taniti/TravelBlog'>Travel Blog</a>
+                <a href='/TravelBlog'>Travel Blog</a>
             </div>            
         </>
     );

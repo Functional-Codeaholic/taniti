@@ -29,8 +29,8 @@ function App() {
           <Route path="#Hero" element={<Hero />} />
 
           <Route path="#Amenities" element={<Amenities />} />
-          <Route path="/taniti/Amenities" element={<TanitianAmenities />} >
-            <Route path="/taniti/Amenities/*" element={<TanitianAmenities />} />
+          <Route path="/Amenities" element={<TanitianAmenities />} >
+            <Route path="/Amenities/*" element={<TanitianAmenities />} />
           </Route>
 
           <Route path="#Beaches" element={<Beaches />} />
