@@ -22,13 +22,13 @@ const Menu = () => {
                     }
                 `}</style>
                 <ul>
-                    <li><NavHashLink exact="true" smooth activeclassname="active" className="linkHero" to="/">Home</NavHashLink></li>
-                    <li><NavHashLink exact="true" smooth activeclassname="active" to="/#Amenities">Amenities</NavHashLink></li>
-                    <li><NavHashLink exact="true" smooth activeclassname="active" to="/#Beaches">Beaches</NavHashLink></li>
-                    <li><NavHashLink exact="true" smooth activeclassname="active" to="/#Culture">Culture</NavHashLink></li>
-                    <li><NavHashLink exact="true" smooth activeclassname="active" to="/#Explore">Explore</NavHashLink></li>
-                    <li><NavHashLink exact="true" smooth activeclassname="active" to="/#Food">Food</NavHashLink></li>
-                    <li><NavHashLink exact="true" smooth activeclassname="active" to="/#Weather">Weather</NavHashLink></li>
+                    <li><NavHashLink exact="true" smooth activeclassname="active" onClick={toggleMenu} className="linkHero" to="/">Home</NavHashLink></li>
+                    <li><NavHashLink exact="true" smooth activeclassname="active" onClick={toggleMenu} to="/#Amenities">Amenities</NavHashLink></li>
+                    <li><NavHashLink exact="true" smooth activeclassname="active" onClick={toggleMenu} to="/#Beaches">Beaches</NavHashLink></li>
+                    <li><NavHashLink exact="true" smooth activeclassname="active" onClick={toggleMenu} to="/#Culture">Culture</NavHashLink></li>
+                    <li><NavHashLink exact="true" smooth activeclassname="active" onClick={toggleMenu} to="/#Explore">Explore</NavHashLink></li>
+                    <li><NavHashLink exact="true" smooth activeclassname="active" onClick={toggleMenu} to="/#Food">Food</NavHashLink></li>
+                    <li><NavHashLink exact="true" smooth activeclassname="active" onClick={toggleMenu} to="/#Weather">Weather</NavHashLink></li>
                 </ul>
             </nav>
         </>
