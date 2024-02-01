@@ -5,7 +5,7 @@ const CTA = () => {
     return (
         <>
             <div className="cta">
-                <a href='/taniti/Book'>Book Now</a>
+                <a href='/Book'>Book Now</a>
             </div>    
         </>
     );

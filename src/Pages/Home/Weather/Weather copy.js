@@ -20,8 +20,9 @@ import n13 from '../../../Assets/Images/Weather_Icons/13n.png';
 import d50 from '../../../Assets/Images/Weather_Icons/50d.png';
 import n50 from '../../../Assets/Images/Weather_Icons/50n.png';
 
+
 const Weather = () => {    
-    const [data, setData] = useState({"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"01d"}]});
+    const [data, setData] = useState({});
     const [icon, setIcon] = useState('');
     
     const url = 'https://api.openweathermap.org/data/2.5/weather?lat=9.214902485815943&lon=162.3656715224315&units=imperial&appid=bf43e9795ae689edfb33818d17cbadd8';
@@ -87,9 +88,9 @@ const Weather = () => {
                     break;
                 default:
                     setIcon(d01);
-            };
+            }
         });
-    });
+    }, [])
 
     return (
         <>    
