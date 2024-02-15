@@ -29,6 +29,8 @@
             z-index: 900;
             font-size: 1.5rem;
             font-family: $mainfont;
+            -webkit-backdrop-filter: blur(2px); /** needed for safari at least up to v9 */
+            backdrop-filter: blur(2px);
         }
     }
 }

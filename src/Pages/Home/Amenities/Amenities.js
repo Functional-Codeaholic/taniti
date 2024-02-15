@@ -7,6 +7,7 @@ const Amenities = () => {
         <>
             <div className="featured" id="Amenities">
                 <a href="/TahitianAmenities"><img src={Huts} alt="" /></a>
+                <caption>Featured Destination: Fale Matatahi Bungalows - Book now for 10% off instant savings!</caption>
             </div>
         </>
     );
